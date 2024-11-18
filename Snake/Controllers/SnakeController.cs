@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
+using Microsoft.Extensions.Caching.Distributed;
+using System.Text.Json;
 namespace Snake
 {
     [ApiController]
